@@ -1,4 +1,4 @@
-package com.emin.zeyanlov.az.whatsapp
+package com.emin.zeynalov.az.whatsapp
 
 import android.app.Application
 import com.facebook.react.PackageList

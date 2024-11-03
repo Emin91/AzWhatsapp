@@ -1,4 +1,4 @@
-package com.emin.zeyanlov.az.whatsapp
+package com.emin.zeynalov.az.whatsapp
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate
