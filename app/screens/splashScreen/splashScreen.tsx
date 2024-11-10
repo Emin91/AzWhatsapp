@@ -13,7 +13,7 @@ export const SplashScreen: FC<Props> = memo(({ }: Props) => {
     useEffect(() => {
         const id = setTimeout(() => {
             _setIsSplashLoaded(true);
-        }, 3000);
+        }, 500);
         return () => clearTimeout(id);
     }, []);
 

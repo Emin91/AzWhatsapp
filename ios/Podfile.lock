@@ -1283,7 +1283,7 @@ PODS:
     - Yoga
   - react-native-netinfo (11.4.1):
     - React-Core
-  - react-native-pager-view (6.4.1):
+  - react-native-pager-view (6.5.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1589,9 +1589,30 @@ PODS:
     - React-utils (= 0.75.0)
   - RNCClipboard (1.14.3):
     - React-Core
-  - RNCMaskedView (0.3.1):
+  - RNCMaskedView (0.3.2):
+    - DoubleConversion
+    - glog
+    - hermes-engine
+    - RCT-Folly (= 2024.01.01.00)
+    - RCTRequired
+    - RCTTypeSafety
     - React-Core
+    - React-debug
+    - React-Fabric
+    - React-featureflags
+    - React-graphics
+    - React-ImageManager
+    - React-NativeModulesApple
+    - React-RCTFabric
+    - React-rendererdebug
+    - React-utils
+    - ReactCodegen
+    - ReactCommon/turbomodule/bridging
+    - ReactCommon/turbomodule/core
+    - Yoga
   - RNDateTimePicker (8.2.0):
+    - React-Core
+  - RNDeviceInfo (14.0.0):
     - React-Core
   - RNGestureHandler (2.20.2):
     - DoubleConversion
@@ -1701,7 +1722,7 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
-  - RNScreens (3.35.0):
+  - RNScreens (4.0.0):
     - DoubleConversion
     - glog
     - hermes-engine
@@ -1823,6 +1844,7 @@ DEPENDENCIES:
   - "RNCClipboard (from `../node_modules/@react-native-clipboard/clipboard`)"
   - "RNCMaskedView (from `../node_modules/@react-native-masked-view/masked-view`)"
   - "RNDateTimePicker (from `../node_modules/@react-native-community/datetimepicker`)"
+  - RNDeviceInfo (from `../node_modules/react-native-device-info`)
   - RNGestureHandler (from `../node_modules/react-native-gesture-handler`)
   - RNReanimated (from `../node_modules/react-native-reanimated`)
   - RNScreens (from `../node_modules/react-native-screens`)
@@ -1978,6 +2000,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-masked-view/masked-view"
   RNDateTimePicker:
     :path: "../node_modules/@react-native-community/datetimepicker"
+  RNDeviceInfo:
+    :path: "../node_modules/react-native-device-info"
   RNGestureHandler:
     :path: "../node_modules/react-native-gesture-handler"
   RNReanimated:
@@ -2031,7 +2055,7 @@ SPEC CHECKSUMS:
   react-native-blur: a1bf334589f44658a58a859b1f3defe28e367fcf
   react-native-cameraroll: b3395629565d1663b4f340c7314e7c04e88c9b3c
   react-native-netinfo: f0a9899081c185db1de5bb2fdc1c88c202a059ac
-  react-native-pager-view: c476f76d54f946df5147645e902d3d7173688187
+  react-native-pager-view: bc0577047c5901fc96f6134881172072a909af7b
   react-native-safe-area-context: 4532f1a0c5d34a46b9324ccaaedcb5582a302b7d
   react-native-slider: 4a0f3386a38fc3d2d955efc515aef7096f7d1ee4
   React-nativeconfig: 271a4a10146950e1ff9825e7f0f84898502a7d84
@@ -2061,11 +2085,12 @@ SPEC CHECKSUMS:
   ReactCodegen: a914c912066812bef8cef43f8cda18fe89692c83
   ReactCommon: b397c744756a63854b9e89a0a810f01e8f26d8d9
   RNCClipboard: 2821ac938ef46f736a8de0c8814845dde2dcbdfb
-  RNCMaskedView: 090213d32d8b3bb83a4dcb7d12c18f0152591906
+  RNCMaskedView: e07a0b5e9e8d6962826def06e6ff2ecdb815433f
   RNDateTimePicker: 40ffda97d071a98a10fdca4fa97e3977102ccd14
+  RNDeviceInfo: 6192a9c9167e256803e554038b22b3b2b40163dc
   RNGestureHandler: 511250b190a284388f9dd0d2e56c1df76f14cfb8
   RNReanimated: f42a5044d121d68e91680caacb0293f4274228eb
-  RNScreens: c7ceced6a8384cb9be5e7a5e88e9e714401fd958
+  RNScreens: de948b09c9a30f3ea52f9840dd6f8ce92b4e33d3
   RNShare: eaeb5e7dc1618d19db6234da1af91fc60dd6bc0f
   RNSVG: 8b1a777d54096b8c2a0fd38fc9d5a454332bbb4d
   SocketRocket: abac6f5de4d4d62d24e11868d7a2f427e0ef940d

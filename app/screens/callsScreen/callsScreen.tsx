@@ -1,18 +1,17 @@
-import React, { FC, memo, useState } from "react";
+import React, { FC, memo } from "react";
 import { SafeAreaView, Text, View } from "react-native";
-import { getStyle } from "./styles";
+import { getStyle } from "./style";
 
 interface IProps {
 }
 
-export const MessagesListScreen: FC<IProps> = memo(({ }: IProps) => {
-    const [] = useState();
+export const CallsScreen: FC<IProps> = memo(({}: IProps) => {
     const styles = getStyle();
 
     return (
         <SafeAreaView style={styles.container}>
             <View>
-                <Text>MessagesListScreen</Text>
+                <Text>CallsScreen</Text>
             </View>
         </SafeAreaView>
     );

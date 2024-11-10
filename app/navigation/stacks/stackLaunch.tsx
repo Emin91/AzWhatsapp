@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { ROUTES } from "../routes";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { SplashScreen } from "../../views/splashScreen";
+import { SplashScreen } from "../../screens/splashScreen";
 
 const Stack = createNativeStackNavigator();
 

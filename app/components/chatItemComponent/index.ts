@@ -1,0 +1,1 @@
+export { ChatItemComponent } from "./chatItemComponent";

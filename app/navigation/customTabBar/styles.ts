@@ -1,12 +1,13 @@
 import { StyleSheet } from "react-native";
+import { COLORS, TYPOGRAPHY } from "../../theme";
 
 export const getStyle = (bottom: number) => {
     return StyleSheet.create({
         container: {
-            height: 50 + (bottom || 0),
-            borderTopWidth: 1,
-            borderTopColor: "#dedede",
-            backgroundColor: "#FFFFFF",
+            height: 60 + (bottom || 0),
+            borderTopWidth: 0.3,
+            borderTopColor: COLORS.silverGray,
+            backgroundColor: COLORS.lightGray,
             alignItems: "center",
             flexDirection: "row",
             justifyContent: "space-between"
@@ -25,7 +26,7 @@ export const getStyle = (bottom: number) => {
             justifyContent: "center"
         },
         tabBarTitle: {
-            fontSize: 10
+            ...TYPOGRAPHY.tabBar
         }
     });
 };

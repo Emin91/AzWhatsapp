@@ -6,6 +6,10 @@ export enum ROUTES {
     StackCommunities = "StackCommunities",
     StackChats = "StackChats",
     StackSettings = "StackSettings",
-    MessagesList = "MessagesList",
     Splash = "Splash",
+    Stories = "Stories",
+    Settings = "Settings",
+    Communities = "Communities",
+    Calls = "Calls",
+    Chats = "Chats",
 }

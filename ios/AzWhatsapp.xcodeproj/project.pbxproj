@@ -8,13 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* AzWhatsappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* AzWhatsappTests.m */; };
+		0B5208A2BB05401094B7B468 /* SF-Pro-Text-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0AFB001EC3A43A58CF42459 /* SF-Pro-Text-LightItalic.otf */; };
 		0C80B921A6F3F58F76C31292 /* libPods-AzWhatsapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-AzWhatsapp.a */; };
+		0F72D66159C44699ADF3A0C5 /* SF-Pro-Text-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 91A7BC1F7C2B44E2A3A0203C /* SF-Pro-Text-Regular.otf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1B1B08DDB05E45A4A8C97BC1 /* SF-Pro-Text-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 17F0EB05567B469D94CC9A71 /* SF-Pro-Text-Bold.otf */; };
+		214DDF5EC58C4176B06D7BFE /* SF-Pro-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BD519ED3D2CF41A3AABC1221 /* SF-Pro-Text-RegularItalic.otf */; };
 		2FE57EE827DB9672AC442715 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 8EE1A10B17BADFF4B5449EA1 /* PrivacyInfo.xcprivacy */; };
+		4865A95A04D446BBA6C95AD7 /* SF-Pro-Text-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8122C750730841A1A5E02DC6 /* SF-Pro-Text-Heavy.otf */; };
+		4C248DE4991D4933AF61599D /* SF-Pro-Text-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E08FCA83E6854FCDA2C22B87 /* SF-Pro-Text-MediumItalic.otf */; };
+		50D39E6D1DF34BBAA3116CCE /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = D6FF91C98EB5433D9682E263 /* SF-Pro-Text-SemiboldItalic.otf */; };
+		6999DB3921BE4A3E861D77E1 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 07DB8FA8D4EC4D349BAA1BBF /* SF-Pro-Text-Semibold.otf */; };
 		7699B88040F8A987B510C191 /* libPods-AzWhatsapp-AzWhatsappTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AzWhatsapp-AzWhatsappTests.a */; };
+		79F58B9A59844044865900AA /* SF-Pro-Text-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 07705EB7CFB94E3B92A1E158 /* SF-Pro-Text-Medium.otf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		83806F9658B04830A9A99C95 /* SFB.otf in Resources */ = {isa = PBXBuildFile; fileRef = 269A0D690ECD4AC889C7ACF9 /* SFB.otf */; };
+		A7CF2C79D18C4786BB1C21F4 /* SF-Pro-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 0A442EE0B1624D31962C8A00 /* SF-Pro-Text-Light.otf */; };
+		E7304DA30578482EB549AF98 /* SF-Pro-Text-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = CFE5F1DAB35941EAB1A1D569 /* SF-Pro-Text-BoldItalic.otf */; };
+		FE1BD431803C43DDB3E366CB /* SF-Pro-Text-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 094E609B9392436CA0406E27 /* SF-Pro-Text-HeavyItalic.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +44,10 @@
 		00E356EE1AD99517003FC87E /* AzWhatsappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AzWhatsappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* AzWhatsappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AzWhatsappTests.m; sourceTree = "<group>"; };
+		07705EB7CFB94E3B92A1E158 /* SF-Pro-Text-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Medium.otf"; path = "../app/assets/fonts/SF-Pro-Text-Medium.otf"; sourceTree = "<group>"; };
+		07DB8FA8D4EC4D349BAA1BBF /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Semibold.otf"; path = "../app/assets/fonts/SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
+		094E609B9392436CA0406E27 /* SF-Pro-Text-HeavyItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-HeavyItalic.otf"; path = "../app/assets/fonts/SF-Pro-Text-HeavyItalic.otf"; sourceTree = "<group>"; };
+		0A442EE0B1624D31962C8A00 /* SF-Pro-Text-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Light.otf"; path = "../app/assets/fonts/SF-Pro-Text-Light.otf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* AzWhatsapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AzWhatsapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = AzWhatsapp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = AzWhatsapp/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,14 +55,23 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = AzWhatsapp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = AzWhatsapp/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = AzWhatsapp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		17F0EB05567B469D94CC9A71 /* SF-Pro-Text-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Bold.otf"; path = "../app/assets/fonts/SF-Pro-Text-Bold.otf"; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-AzWhatsapp-AzWhatsappTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AzWhatsapp-AzWhatsappTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		269A0D690ECD4AC889C7ACF9 /* SFB.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = SFB.otf; path = ../app/assets/fonts/SFB.otf; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-AzWhatsapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzWhatsapp.debug.xcconfig"; path = "Target Support Files/Pods-AzWhatsapp/Pods-AzWhatsapp.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-AzWhatsapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzWhatsapp.release.xcconfig"; path = "Target Support Files/Pods-AzWhatsapp/Pods-AzWhatsapp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-AzWhatsapp-AzWhatsappTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzWhatsapp-AzWhatsappTests.debug.xcconfig"; path = "Target Support Files/Pods-AzWhatsapp-AzWhatsappTests/Pods-AzWhatsapp-AzWhatsappTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-AzWhatsapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AzWhatsapp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8122C750730841A1A5E02DC6 /* SF-Pro-Text-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Heavy.otf"; path = "../app/assets/fonts/SF-Pro-Text-Heavy.otf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AzWhatsapp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AzWhatsapp-AzWhatsappTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AzWhatsapp-AzWhatsappTests.release.xcconfig"; path = "Target Support Files/Pods-AzWhatsapp-AzWhatsappTests/Pods-AzWhatsapp-AzWhatsappTests.release.xcconfig"; sourceTree = "<group>"; };
 		8EE1A10B17BADFF4B5449EA1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = AzWhatsapp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		91A7BC1F7C2B44E2A3A0203C /* SF-Pro-Text-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-Regular.otf"; path = "../app/assets/fonts/SF-Pro-Text-Regular.otf"; sourceTree = "<group>"; };
+		B0AFB001EC3A43A58CF42459 /* SF-Pro-Text-LightItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-LightItalic.otf"; path = "../app/assets/fonts/SF-Pro-Text-LightItalic.otf"; sourceTree = "<group>"; };
+		BD519ED3D2CF41A3AABC1221 /* SF-Pro-Text-RegularItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-RegularItalic.otf"; path = "../app/assets/fonts/SF-Pro-Text-RegularItalic.otf"; sourceTree = "<group>"; };
+		CFE5F1DAB35941EAB1A1D569 /* SF-Pro-Text-BoldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-BoldItalic.otf"; path = "../app/assets/fonts/SF-Pro-Text-BoldItalic.otf"; sourceTree = "<group>"; };
+		D6FF91C98EB5433D9682E263 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-SemiboldItalic.otf"; path = "../app/assets/fonts/SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		E08FCA83E6854FCDA2C22B87 /* SF-Pro-Text-MediumItalic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Text-MediumItalic.otf"; path = "../app/assets/fonts/SF-Pro-Text-MediumItalic.otf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -111,6 +137,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		55C9FB2148684408815C4C59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17F0EB05567B469D94CC9A71 /* SF-Pro-Text-Bold.otf */,
+				CFE5F1DAB35941EAB1A1D569 /* SF-Pro-Text-BoldItalic.otf */,
+				8122C750730841A1A5E02DC6 /* SF-Pro-Text-Heavy.otf */,
+				094E609B9392436CA0406E27 /* SF-Pro-Text-HeavyItalic.otf */,
+				0A442EE0B1624D31962C8A00 /* SF-Pro-Text-Light.otf */,
+				B0AFB001EC3A43A58CF42459 /* SF-Pro-Text-LightItalic.otf */,
+				07705EB7CFB94E3B92A1E158 /* SF-Pro-Text-Medium.otf */,
+				E08FCA83E6854FCDA2C22B87 /* SF-Pro-Text-MediumItalic.otf */,
+				91A7BC1F7C2B44E2A3A0203C /* SF-Pro-Text-Regular.otf */,
+				BD519ED3D2CF41A3AABC1221 /* SF-Pro-Text-RegularItalic.otf */,
+				07DB8FA8D4EC4D349BAA1BBF /* SF-Pro-Text-Semibold.otf */,
+				D6FF91C98EB5433D9682E263 /* SF-Pro-Text-SemiboldItalic.otf */,
+				269A0D690ECD4AC889C7ACF9 /* SFB.otf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,6 +174,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				55C9FB2148684408815C4C59 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -249,6 +297,19 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				2FE57EE827DB9672AC442715 /* PrivacyInfo.xcprivacy in Resources */,
+				1B1B08DDB05E45A4A8C97BC1 /* SF-Pro-Text-Bold.otf in Resources */,
+				E7304DA30578482EB549AF98 /* SF-Pro-Text-BoldItalic.otf in Resources */,
+				4865A95A04D446BBA6C95AD7 /* SF-Pro-Text-Heavy.otf in Resources */,
+				FE1BD431803C43DDB3E366CB /* SF-Pro-Text-HeavyItalic.otf in Resources */,
+				A7CF2C79D18C4786BB1C21F4 /* SF-Pro-Text-Light.otf in Resources */,
+				0B5208A2BB05401094B7B468 /* SF-Pro-Text-LightItalic.otf in Resources */,
+				79F58B9A59844044865900AA /* SF-Pro-Text-Medium.otf in Resources */,
+				4C248DE4991D4933AF61599D /* SF-Pro-Text-MediumItalic.otf in Resources */,
+				0F72D66159C44699ADF3A0C5 /* SF-Pro-Text-Regular.otf in Resources */,
+				214DDF5EC58C4176B06D7BFE /* SF-Pro-Text-RegularItalic.otf in Resources */,
+				6999DB3921BE4A3E861D77E1 /* SF-Pro-Text-Semibold.otf in Resources */,
+				50D39E6D1DF34BBAA3116CCE /* SF-Pro-Text-SemiboldItalic.otf in Resources */,
+				83806F9658B04830A9A99C95 /* SFB.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

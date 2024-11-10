@@ -4,6 +4,9 @@ import Animated, { interpolate, useAnimatedStyle, useSharedValue, withSpring } f
 import { NavigationProp } from "@react-navigation/native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 import { getStyle } from "./styles";
+import { SvgProps } from "react-native-svg";
+import { ICONS } from "../../assets/svg";
+import { COLORS } from "../../theme";
 
 interface Props {
     index: number
@@ -18,47 +21,47 @@ export const AnimatedTabButton: FC<Props> = memo(({ index, route, state, navigat
     const tabIconRef = useRef<View>(null);
     const styles = useMemo(() => getStyle(bottom), [bottom]);
     const isFocused = state.index == index;
+    let TabIcon: React.ComponentType<SvgProps>;
 
     const onPressToTabIcon = useCallback(() => {
-        tabIconRef?.current?.measure((x, y, w, h, pagex, pagey) => {
-        });
-        const event = navigation.emit({ type: "tabPress", target: route.key });
+        const event = navigation?.emit({ type: "tabPress", target: route.key });
         (!isFocused && !event.defaultPrevented) ? navigation.navigate(route.name) : null;
     }, [isFocused]);
 
     const rIcon = useAnimatedStyle(() => {
         const scale = interpolate(progress.value, [0, 1], [1, 1.2]);
-        const translateY = interpolate(progress.value, [0, 0.5, 1], [0, isFocused ? 6 : -3, 0]);
+        const translateY = interpolate(progress.value, [0, 0.1, 1], [0, isFocused ? 3 : -3, 0]);
         return {
             transform: [{ scale }, { translateY: isFocused ? translateY : 0 }]
         };
     });
 
     const tabIcon = useMemo(() => {
-        const color = isFocused ? "green" : "orange";
-        const icons: { [key: number]: React.ReactNode } = {
-            0: null,
-            1: null,
-            2: null,
-            3: null,
-            4: null
+        const icons: { [key: number]: React.ComponentType<SvgProps> } = {
+            0: ICONS[isFocused ? "StoriesFilled" : "Stories"],
+            1: ICONS[isFocused ? "PhoneFilled" : "Phone"],
+            2: ICONS[isFocused ? "PeopleFilled" : "People"],
+            3: ICONS[isFocused ? "ChatsFilled" : "Chats"],
+            4: ICONS[isFocused ? "SettingsFilled" : "Settings"]
         };
-        return icons[index];
+        TabIcon = icons[index];
+
+        return <TabIcon />;
     }, [index, isFocused]);
 
     const tabTitle = useMemo(() => {
         const title: { [key: number]: React.ReactNode } = {
-            0: "search",
-            1: "trip",
-            2: "favorites",
-            3: "support",
-            4: "menu"
+            0: "Stories",
+            1: "Calls",
+            2: "Communities",
+            3: "Chats",
+            4: "Settings"
         };
         return title[index] as string;
     }, [index, isFocused]);
 
     useEffect(() => {
-        progress.value = withSpring(isFocused ? 1 : 0, { stiffness: 200 });
+        progress.value = withSpring(isFocused ? 1 : 0, { stiffness: 100 });
     }, [isFocused]);
 
     return (
@@ -66,7 +69,7 @@ export const AnimatedTabButton: FC<Props> = memo(({ index, route, state, navigat
             <Animated.View ref={tabIconRef} style={[styles.buttonWrapper, rIcon]}>
                 {tabIcon}
             </Animated.View>
-            <Text numberOfLines={1} style={{ ...styles.tabBarTitle, color: isFocused ? "green" : "orange" }}>{tabTitle}</Text>
+            <Text numberOfLines={1} style={{ ...styles.tabBarTitle, color: isFocused ? COLORS.dark : COLORS.slateGray }}>{tabTitle}</Text>
         </Pressable>
     );
 });

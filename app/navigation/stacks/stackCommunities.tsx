@@ -1,15 +1,15 @@
 import React, { FC } from "react";
 import { ROUTES } from "../routes";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-import { MessagesListScreen } from "../../views/messagesListScreen";
+import { CommunitiesScreen } from "../../screens/communitiesScreen";
 
 const Stack = createNativeStackNavigator();
 
 export const StackCommunities: FC = () => {
 
     return (
-        <Stack.Navigator initialRouteName={ROUTES.MessagesList} screenOptions={{ headerShown: false }}>
-            <Stack.Screen name={ROUTES.MessagesList} component={MessagesListScreen} />
+        <Stack.Navigator initialRouteName={ROUTES.Communities} screenOptions={{ headerShown: false }}>
+            <Stack.Screen name={ROUTES.Communities} component={CommunitiesScreen} />
         </Stack.Navigator>
     );
 };
